@@ -10,7 +10,7 @@ This project explores a small-scale pandemic-like simulation using the ARENA sim
 # Files
   1. [`Project With immunization`](/Final_CodeAndData/Project%20With%20immunization.doe) and [`Project Without immunization`](/Final_CodeAndData/Project%20Without%20immunization.doe) - ARENA simulation files
      - The simulation itself is set to output into our local machines and our team noticed that the simulation takes around 20+ minutes to run (30-40 minutes at most) through all 100,000 replications so, we do not recommend running our simulation on your own. The simulation files are added to show the flow and process of generating our data
-  2. [`Report with Immunization - 100000 reps.csv`](/Final_CodeAndData/Report%20with%20Immunization%20-%20100000%20reps.csv) and [`Report 100000 reps.csv`](/Final_CodeAndData/Report%20100000%20reps.csv`) - CSV files that contain simulation outputs
+  2. [`Report with Immunization - 100000 reps.csv`] and [`Report 100000 reps.csv`] - CSV files that contain simulation outputs
      - Fairly large and a preview of these files may not be available here on GitHub. The following is a screenshot of how the files should look (Notice that the file with immunization does not have a header, which is taken into account in analyses code files later):
          - Report with Immunization - 100000 reps: ![Output of simulation with immunization](/Images/output_immunization.PNG)
          - Report 100000 reps: ![Output of simulation without immunization](/Images/output.PNG)
