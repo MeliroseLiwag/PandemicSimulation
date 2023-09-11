@@ -12,8 +12,8 @@ This project explores a small-scale pandemic-like simulation using the ARENA sim
      - The simulation itself is set to output into our local machines and our team noticed that the simulation takes around 20+ minutes to run (30-40 minutes at most) through all 100,000 replications so, we do not recommend running our simulation on your own. The simulation files are added to show the flow and process of generating our data
   2. [`Report with Immunization - 100000 reps.csv`](/Final_CodeAndData/Report%20with%20Immunization%20-%20100000%20reps.csv) and [`Report 100000 reps.csv`](/Final_CodeAndData/Report%20100000%20reps.csv`) - CSV files that contain simulation outputs
      - Fairly large and a preview of these files may not be available here on GitHub. The following is a screenshot of how the files should look (Notice that the file with immunization does not have a header, which is taken into account in analyses code files later):
-         - Report with Immunization - 100000 reps: ![Output of simulation with immunization](/Images/output_immunization.png)
-         - Report 100000 reps: ![Output of simulation without immunization](/Images/output.png)
+         - Report with Immunization - 100000 reps: ![Output of simulation with immunization](/Images/output_immunization.PNG)
+         - Report 100000 reps: ![Output of simulation without immunization](/Images/output.PNG)
   3. [`ExpectedNumberPerDay.py`](/Final_CodeAndData/ExpectedNumberPerDay.py) - Python file
       - This file keeps track of statistical calculations needed for the final report. Analyses include: finding the sample means and confidence intervals for days 1 and 2 as well as finding the average number of infected from all replications.
   4. [`SIR Differential Equation Model.ipynb`](/Final_CodeAndData/SIR%20Differential%20Equation%20Model.ipynb) - Jupyter Notebook
@@ -29,5 +29,5 @@ This project explores a small-scale pandemic-like simulation using the ARENA sim
 
 The three models were compared in terms of how long each simulation expects the epidemic to end. As shown in the table below, there is no clear interval in how long the epidemic will really last without immunization. Because this project is very small and limited, other significant factors, that may not be considered here, may result in a more significant finding than what our team has so far.
 
-![Model Comparison](/Images/model_compare.png)
+![Model Comparison](/Images/model_compare.PNG)
 
