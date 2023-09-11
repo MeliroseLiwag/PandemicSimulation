@@ -12,8 +12,12 @@ This project explores a small-scale pandemic-like simulation using the ARENA sim
      - The simulation itself is set to output into our local machines and our team noticed that the simulation takes around 20+ minutes to run (30-40 minutes at most) through all 100,000 replications so, we do not recommend running our simulation on your own. The simulation files are added to show the flow and process of generating our data
   2. [`Report with Immunization - 100000 reps.csv`] and [`Report 100000 reps.csv`] - CSV files that contain simulation outputs
      - Fairly large and a preview of these files may not be available here on GitHub. The following is a screenshot of how the files should look (Notice that the file with immunization does not have a header, which is taken into account in analyses code files later):
-         - Report with Immunization - 100000 reps: ![Output of simulation with immunization](/Images/output_immunization.PNG)
-         - Report 100000 reps: ![Output of simulation without immunization](/Images/output.PNG)
+         - Report with Immunization - 100000 reps:
+
+           ![Output of simulation with immunization](/Images/output_immunization.PNG)
+         - Report 100000 reps:
+
+           ![Output of simulation without immunization](/Images/output.PNG)
   3. [`ExpectedNumberPerDay.py`](/Final_CodeAndData/ExpectedNumberPerDay.py) - Python file
       - This file keeps track of statistical calculations needed for the final report. Analyses include: finding the sample means and confidence intervals for days 1 and 2 as well as finding the average number of infected from all replications.
   4. [`SIR Differential Equation Model.ipynb`](/Final_CodeAndData/SIR%20Differential%20Equation%20Model.ipynb) - Jupyter Notebook
